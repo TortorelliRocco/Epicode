@@ -37,3 +37,19 @@ Work in progress – insights and structure will be improved iteratively.
 - Validate primary keys
 - Simplify tables where possible
 - Review visual interactions after data model cleanup
+
+
+## Refresh Notes - Day 2
+### Overview Page Interactions
+- Enabled cross-filtering between all main visuals
+- Verified that selecting a market updates other charts correctly
+- Noted that some slicer interactions depend on data model relationships
+
+### Inflation Analysis Pages
+- Confirmed table-to-visual filtering works correctly
+- Observed that selecting dates not present in other visuals leads to no change (expected behavior)
+
+### Predictive Analysis Page
+- Reviewed map interactions and zoom behavior
+- Fixed zoom issue on inflation prediction map
+- Noted minor color/interaction inconsistencies for future refinement
