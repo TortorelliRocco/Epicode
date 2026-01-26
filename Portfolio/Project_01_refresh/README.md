@@ -60,3 +60,11 @@ Work in progress – insights and structure will be improved iteratively.
 - Reviewed map interactions and zoom behavior
 - Fixed zoom issue on inflation prediction map
 - Noted minor color/interaction inconsistencies for future refinement
+
+
+## Data Model – Market Table Analysis - Day 4
+- Reviewed structure and purpose of the market table
+- Identified the absence of a natural primary key; records are defined by a composite of country and time
+- Clarified the role of ISO3, date fields, and geographic coordinates
+- Confirmed market table acts as a fact table containing food price and inflation metrics
+- Marked opportunities for future refactoring (date and geography dimensions)
