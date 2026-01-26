@@ -49,6 +49,13 @@ Work in progress – insights and structure will be improved iteratively.
 - Confirmed table-to-visual filtering works correctly
 - Observed that selecting dates not present in other visuals leads to no change (expected behavior)
 
+
+## Predictive Analysis – Interaction Refinement - Day 3
+- Removed interactions between predictive chart and maps
+- Prevented unintended color and filter conflicts
+- Improved clarity and stability of predictive visuals
+
+
 ### Predictive Analysis Page
 - Reviewed map interactions and zoom behavior
 - Fixed zoom issue on inflation prediction map
