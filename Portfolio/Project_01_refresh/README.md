@@ -68,3 +68,19 @@ Work in progress – insights and structure will be improved iteratively.
 - Clarified the role of ISO3, date fields, and geographic coordinates
 - Confirmed market table acts as a fact table containing food price and inflation metrics
 - Marked opportunities for future refactoring (date and geography dimensions)
+
+
+## Data Model – Country and Details Tables Review - Day 5
+
+### Country Table
+- Contains time-based inflation data at country level
+- Uses a composite key (ISO3 + Month + Year), resulting in a strong technical key but non-pure dimensional behavior
+- Acts as a time-grained fact-like table rather than a pure country dimension
+- Identified redundant inflation metrics (absolute vs percentage values)
+- Includes date fields that overlap conceptually with market table
+
+### Details Table
+- Small summary table (one row per country)
+- Provides aggregated country-level indicators used for comparative analysis
+- Acts as a hub table connecting market and country tables
+- Structure supports high-level insights despite limited row count
