@@ -84,3 +84,29 @@ Work in progress – insights and structure will be improved iteratively.
 - Provides aggregated country-level indicators used for comparative analysis
 - Acts as a hub table connecting market and country tables
 - Structure supports high-level insights despite limited row count
+
+## Refresh Notes – Day 6 & Day 7 (Dashboard Refinement)
+
+### Internationalization
+- Translated the entire dashboard from Italian to English
+- Standardized titles, labels, slicers, and visual text
+- Improved international readability and portfolio suitability
+
+### UX & Visual Improvements
+- Added tooltips to navigation buttons on each page
+- Removed data labels from overview visuals to reduce clutter
+- Reviewed and fixed visual interactions across pages
+- Disabled unintended interactions affecting predictive maps
+
+### Date & Formatting Consistency
+- Standardized date formats across all tables and visuals
+- Replaced long textual date formats with numeric formats
+- Ensured consistent behavior between tables, slicers, and charts
+
+### Map Visuals
+- Verified that market-level maps clearly display market names on hover
+- Improved zoom and selection behavior in predictive and overview maps
+
+Status update:
+The dashboard is now fully translated, visually consistent, and structurally stable.
+Ready for portfolio review and alignment with PL-300 best practices.
