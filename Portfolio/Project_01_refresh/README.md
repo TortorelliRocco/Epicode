@@ -110,3 +110,6 @@ Work in progress – insights and structure will be improved iteratively.
 Status update:
 The dashboard is now fully translated, visually consistent, and structurally stable.
 Ready for portfolio review and alignment with PL-300 best practices.
+
+## Refresh Notes - Day 8 
+- Added initial DAX measures (averages and time intelligence) to improve analytical flexibility and align the project with PL-300 best practices.
